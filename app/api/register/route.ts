@@ -1,7 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import getConnection from '@/utils/db';
-import sql from 'mssql'
-
+import sql from 'mssql' 
 export async function POST(req: NextRequest){
     if (req.method === 'POST') {
   try {
